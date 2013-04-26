@@ -1,0 +1,15 @@
+data = '{
+    "type" : "couchdb",
+    "couchdb" : {
+        "host" : "localhost",
+        "port" : 5984,
+        "db" : "couchdb-test",
+        "filter" : null
+    },
+    "index" : {
+        "index" : "couchdb-test",
+        "type" : "couchdb-test",
+        "bulk_size" : "100",
+        "bulk_timeout" : "10ms"
+    }
+}'
