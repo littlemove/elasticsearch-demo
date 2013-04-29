@@ -61,7 +61,7 @@ class ElasticSearchTest
   end
 
   def debug_results(items)
-    items.each { |item| puts "(#{i[:created_at]}) :" + i[:name] + " " + i[:tags].to_s }
+    items.each { |item| puts "(#{item[:created_at]}) :" + item[:name] + " " + item[:tags].to_s }
   end
 
 end
